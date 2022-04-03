@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -336,13 +336,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 463889145}
+  - component: {fileID: 463889146}
   m_Layer: 0
   m_Name: EJ3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &463889145
 Transform:
   m_ObjectHideFlags: 0
@@ -357,6 +358,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &463889146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463889144}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 338553e1a9a2ea844970c358b6231d23, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Name: Ana
 --- !u!1 &593903015
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,13 +440,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 672949036}
+  - component: {fileID: 672949037}
   m_Layer: 0
   m_Name: EJ5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &672949036
 Transform:
   m_ObjectHideFlags: 0
@@ -447,6 +462,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &672949037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 672949035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e4aba91f0aa0cb4cb4d339f07024955, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num1: 7
+  num2: 11
 --- !u!1 &746361866
 GameObject:
   m_ObjectHideFlags: 0
@@ -486,13 +515,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 856733381}
+  - component: {fileID: 856733382}
   m_Layer: 0
   m_Name: Ej2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &856733381
 Transform:
   m_ObjectHideFlags: 0
@@ -507,6 +537,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &856733382
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856733380}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c0b73f4417ee944b74a8b095e6dbe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1077627932
 GameObject:
   m_ObjectHideFlags: 0
@@ -645,13 +687,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1791599223}
+  - component: {fileID: 1791599224}
   m_Layer: 0
   m_Name: EJ4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1791599223
 Transform:
   m_ObjectHideFlags: 0
@@ -666,6 +709,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1791599224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791599222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf0c079946868c948a7575cefe6e8f90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num1: 2
+  num2: 3
 --- !u!1 &1800062625
 GameObject:
   m_ObjectHideFlags: 0
@@ -675,13 +732,14 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1800062626}
+  - component: {fileID: 1800062627}
   m_Layer: 0
   m_Name: EJ6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1800062626
 Transform:
   m_ObjectHideFlags: 0
@@ -696,6 +754,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1800062627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800062625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9beec3a57df7b6a46a7d4ec10e062771, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  num1: 0
 --- !u!1 &1818269974
 GameObject:
   m_ObjectHideFlags: 0
