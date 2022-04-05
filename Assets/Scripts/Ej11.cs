@@ -24,8 +24,7 @@ public class Ej11 : MonoBehaviour
     {
         float precioTotal = precioProducto * cantProducto;
 
-        Debug.Log("Fecha de Compra: " + fechaCompra + "" +
-            "Nombre del Comprador: " + nombreComprador);
+        Debug.Log("Fecha de Compra: " + fechaCompra + " Nombre del Comprador: " + nombreComprador );
     }
 
     void Update()
